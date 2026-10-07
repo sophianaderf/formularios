@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Clarity+City:ital,wght@0,100..900;1,100..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Libertinus+Math&family=Pinyon+Script&display=swap');
+
+* {
+     font-family: "Libertinus Math", system-ui;
+     box-sizing: border-box;
+}
+
+body {
+    background-color: #9fd3f0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+legend {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+fieldset {
+    width: 45%;
+    font-size: 20px;
+    border: 4px solid #ffffff;
+    border-radius: 5px;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+label {
+    width: 35%;
+    text-align: right;
+    margin-right: 10px;
+}
+
+input {
+    width: 60%;
+    padding: 5px;
+        
+}
+
+label,
+input,
+select, 
+textarea {
+    font-size: 20px;
+}
+
+input,
+select,
+textarea {
+    border: 0px;
+    border-radius: 5px;
+}
+
+input[type=checkbox] {
+    width: 24px;
+    height: 24px;
+}
+
+.botoes {
+    justify-content: right;
+}
+
+button {
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    margin-right: 20px;
+    background-color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
+button[type=reset] {
+    color: red;
+}
+
+button[type=submit] {
+    color: green;
+}
